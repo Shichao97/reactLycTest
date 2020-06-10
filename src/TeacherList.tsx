@@ -22,7 +22,7 @@ export default class TeacherList extends React.Component<any,any> {
    handleSearch(){
     let param: any = $("#search_form").serialize();
     let url = "http://localhost:8080/teacher/search?pageSize=20&"+param;
-    this.state={url:url,test2:"yes3"};
+    this.state={url:url,test2:"yes4"};
     this.setState({url:url});
     this.loadUrlData(url);
    }
