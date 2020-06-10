@@ -1,0 +1,100 @@
+.App {
+    text-align: center;
+    background-color: aqua;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .login {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+    background-color: #BDBDBD;
+    pointer-events: auto;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #c5d2ec;
+    pointer-events: auto;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  
+  
+  .mainContext
+  {
+  border-bottom:solid 1px #BDBDBD;
+  border-left:solid 1px #BDBDBD;
+  border-right:solid 1px #BDBDBD;
+  width:1080px;
+  height:2300px;
+  background-color:#FFFCEC;
+  margin:0;
+  padding: 0;
+  position:relative;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  
+  
+  /*左侧主体*/
+  .leftContext
+  {
+  float: left;
+  width: 750px;
+  border-bottom: 1px solid #BDBDBD;
+  }
+  /*左侧主体内容1*/
+  .leftContextdiv1
+  {
+  float: left;
+  width: 750px;
+  height:220px;
+  border-bottom: 1px solid #BDBDBD;
+  }
+  
+  
+  /*右侧主体*/
+  .rightContext
+  {
+  float: right;
+  width: 328px;
+  border-left: 1px solid #BDBDBD;
+  }
+  
+  
+  
+  
+  
+  
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
